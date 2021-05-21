@@ -1,0 +1,272 @@
+object kalkulator: Tkalkulator
+  Left = 820
+  Top = 229
+  Width = 362
+  Height = 438
+  Caption = 'Program Kalkulator'
+  Color = clHighlight
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 720
+  TextHeight = 13
+  object lbl1: TLabel
+    Left = 56
+    Top = 24
+    Width = 234
+    Height = 23
+    Caption = 'PROGRAM KALKULATOR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl2: TLabel
+    Left = 37
+    Top = 72
+    Width = 49
+    Height = 19
+    Caption = 'Nilai I'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl3: TLabel
+    Left = 37
+    Top = 104
+    Width = 56
+    Height = 19
+    Caption = 'Nilai II'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object enil1: TEdit
+    Left = 189
+    Top = 68
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object enil2: TEdit
+    Left = 189
+    Top = 100
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object bclose: TButton
+    Left = 136
+    Top = 352
+    Width = 75
+    Height = 33
+    Caption = 'Close'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = bcloseClick
+  end
+  object grp1: TGroupBox
+    Left = 21
+    Top = 144
+    Width = 305
+    Height = 193
+    Caption = 'Hasil Perhitungan'
+    TabOrder = 3
+    object lbl5: TLabel
+      Left = 115
+      Top = 32
+      Width = 27
+      Height = 16
+      Caption = 'Hasil'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object lbl8: TLabel
+      Left = 115
+      Top = 152
+      Width = 27
+      Height = 16
+      Caption = 'Hasil'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object lbl7: TLabel
+      Left = 115
+      Top = 72
+      Width = 27
+      Height = 16
+      Caption = 'Hasil'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object lbl6: TLabel
+      Left = 115
+      Top = 112
+      Width = 27
+      Height = 16
+      Caption = 'Hasil'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object etambah: TEdit
+      Left = 167
+      Top = 28
+      Width = 121
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+    end
+    object ekurang: TEdit
+      Left = 167
+      Top = 148
+      Width = 121
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+    object ekali: TEdit
+      Left = 167
+      Top = 68
+      Width = 121
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+    end
+    object ebagi: TEdit
+      Left = 167
+      Top = 108
+      Width = 121
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+    end
+    object btambah: TButton
+      Left = 17
+      Top = 27
+      Width = 75
+      Height = 27
+      Caption = 'Tambah'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+      OnClick = btambahClick
+    end
+    object bkurang: TButton
+      Left = 17
+      Top = 147
+      Width = 75
+      Height = 27
+      Caption = 'Kurang'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 5
+      OnClick = bkurangClick
+    end
+    object bkali: TButton
+      Left = 17
+      Top = 67
+      Width = 75
+      Height = 27
+      Caption = 'Kali'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 6
+      OnClick = bkaliClick
+    end
+    object bbagi: TButton
+      Left = 17
+      Top = 107
+      Width = 75
+      Height = 27
+      Caption = 'Bagi'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 7
+      OnClick = bbagiClick
+    end
+  end
+  object xpmnfst1: TXPManifest
+    Left = 24
+    Top = 344
+  end
+end
