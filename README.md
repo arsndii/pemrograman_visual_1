@@ -1,4 +1,4 @@
-# pemrograman_visual_1
+# Pemrograman Visual 1
 Project tugas UTS mata kuliah Pemrograman Visual 1
 
 ## List Program
