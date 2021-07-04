@@ -7,7 +7,7 @@ uses
   Dialogs, StdCtrls, jpeg, ExtCtrls, XPMan;
 
 type
-  Tprofile = class(TForm)
+  Tf_profile = class(TForm)
     grp1: TGroupBox;
     pnl1: TPanel;
     img2: TImage;
@@ -20,7 +20,6 @@ type
     lbl9: TLabel;
     lbl10: TLabel;
     lbl12: TLabel;
-    xpmnfst1: TXPManifest;
   private
     { Private declarations }
   public
@@ -28,7 +27,7 @@ type
   end;
 
 var
-  profile: Tprofile;
+  f_profile: Tf_profile;
 
 implementation
 

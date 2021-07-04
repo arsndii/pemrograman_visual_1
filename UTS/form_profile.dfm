@@ -1,10 +1,10 @@
-object profile: Tprofile
-  Left = 689
-  Top = 320
+object f_profile: Tf_profile
+  Left = 864
+  Top = 373
   Width = 609
   Height = 328
   Caption = 'Profile'
-  Color = clGradientInactiveCaption
+  Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -8699,9 +8699,5 @@ object profile: Tprofile
         D9}
       Stretch = True
     end
-  end
-  object xpmnfst1: TXPManifest
-    Left = 240
-    Top = 224
   end
 end

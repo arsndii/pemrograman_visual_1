@@ -1,0 +1,164 @@
+object f_tambahpasien: Tf_tambahpasien
+  Left = 1078
+  Top = 281
+  Width = 457
+  Height = 307
+  Caption = 'Tambah Data'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object l_1: TLabel
+    Left = 16
+    Top = 56
+    Width = 26
+    Height = 19
+    Caption = 'NIK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object l_2: TLabel
+    Left = 16
+    Top = 96
+    Width = 41
+    Height = 19
+    Caption = 'Nama'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object l_3: TLabel
+    Left = 16
+    Top = 136
+    Width = 96
+    Height = 19
+    Caption = 'Jenis Kelamin'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object l_4: TLabel
+    Left = 16
+    Top = 176
+    Width = 79
+    Height = 19
+    Caption = 'Keterangan'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object l_judul: TLabel
+    Left = 16
+    Top = 16
+    Width = 220
+    Height = 23
+    Caption = 'TAMBAH DATA PASIEN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object e_nik: TEdit
+    Left = 128
+    Top = 52
+    Width = 297
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object e_nama: TEdit
+    Left = 128
+    Top = 92
+    Width = 297
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object e_jeniskelamin: TEdit
+    Left = 128
+    Top = 132
+    Width = 297
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object e_keterangan: TEdit
+    Left = 128
+    Top = 172
+    Width = 297
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object bt_simpan: TButton
+    Left = 139
+    Top = 216
+    Width = 75
+    Height = 33
+    Caption = 'Simpan'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = bt_simpanClick
+  end
+  object bt_batal: TButton
+    Left = 227
+    Top = 216
+    Width = 75
+    Height = 33
+    Caption = 'Batal'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = bt_batalClick
+  end
+end
